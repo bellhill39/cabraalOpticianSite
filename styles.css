@@ -1,0 +1,239 @@
+/* navbar setup */
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #fff;
+  font-size: 15px;
+}
+
+.spectacles {
+  font-size: 26px;
+  line-height: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+  opacity: 0.8;
+}
+
+body {
+  padding-top: 59px;
+}
+
+/* intro section  */
+#intro {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#intro h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#intro h2 {
+  font-size: 27px;
+  font-weight: 400;
+}
+
+
+
+.intro-links {
+  font-size: 21px;
+  margin-bottom: 80px;
+}
+
+.linkImage {
+  font-size: 19px;
+}
+
+.product-link {
+  margin-right: 20px;
+}
+
+.intro-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  width: 65%;
+  position: relative;
+  bottom: 30px;
+}
+
+/* product section */
+
+
+.products-small {
+  height: 550px;
+  padding-top: 40px;
+  margin: 0 0 10px 10px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products-small h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.products-small h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.bgimage1 {
+  background-image: url("images/sun1.jpg");
+  background-position: center bottom;
+}
+
+.bgimage2 {
+  background-image: url("images/glasses1.jpg");
+  background-position: 50% 55%;
+  background-color: #EFEFEF;
+}
+
+.bgimage3 {
+  background-image: url("images/contactLenses1.jpg");
+  background-position: center bottom;
+}
+
+.bgimage4 {
+  background-image: url("images/hearing1.jpg");
+  background-position: 50% 50%;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.products-grid {
+  padding-right: 10px;
+}
+
+/* services section */
+.carouselImage1 {
+  background-image: url("images/repair.jpg");
+  opacity: 90%;
+}
+
+.carouselImage2 {
+  background-image: url("images/repair.jpg");
+  opacity: 90%;
+}
+
+.carouselImage3 {
+  background-image: url("images/repair.jpg");
+  opacity: 90%;
+}
+
+.servicesCarousal .carousel-item {
+  height: 440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 15% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20%;
+}
+
+.carousel-inner {
+  top: 25%;
+}
+
+/* aboutUs */
+
+#aboutUs{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#aboutUs h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border:5px solid #fff;
+}
+
+.avatar:hover{
+  box-shadow: 0 3px 4px 0 #000;
+  border-color: #000;
+}
+
+.aboutUs-box{
+  text-align: center;
+  padding: 5%;
+}
+
+#aboutUs img{
+  color: #000;
+  margin-bottom: 1rem;
+}
+#aboutUs img:hover{
+  color:blue;
+
+}
+
+#buttonRead{
+  padding: 1% 15% 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.storyAboutUs{
+  display: none;
+}
+
+
+
+/* contact Us */
+
+#contactUs{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #000;
+}
+
+.contactUs-box{
+  padding: 5%;
+
+}
+
+#contactUs h3{
+  margin-bottom: 50px;
+}
