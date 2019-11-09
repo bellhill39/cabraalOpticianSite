@@ -28,6 +28,7 @@ body {
 #intro {
   padding-top: 100px;
   text-align: center;
+  opacity: 0;
 }
 
 #intro h1 {
@@ -67,6 +68,9 @@ body {
 
 /* product section */
 
+#products{
+  opacity: 0;
+}
 
 .products-small {
   height: 550px;
@@ -87,25 +91,52 @@ body {
   font-weight: 400;
 }
 
+
+
 .bgimage1 {
   background-image: url("images/sun1.jpg");
   background-position: center bottom;
+  transition: all 0.5s ease;
+
+}
+
+#bgImageHide{
+  background-image: none;
+  background-position: center bottom;
+}
+
+/* animation change effect */
+.tranS{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+
+.bgImageOpasity{
+  opacity: 0;
 }
 
 .bgimage2 {
   background-image: url("images/glasses1.jpg");
   background-position: 50% 55%;
   background-color: #EFEFEF;
+  transition: all 0.5s ease;
+
 }
 
 .bgimage3 {
   background-image: url("images/contactLenses1.jpg");
   background-position: center bottom;
+  transition: all 0.5s ease;
 }
 
 .bgimage4 {
   background-image: url("images/hearing1.jpg");
   background-position: 50% 50%;
+  transition: all 0.5s ease;
 }
 
 .text-white {
