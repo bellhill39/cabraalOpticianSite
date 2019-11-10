@@ -72,6 +72,22 @@ body {
   opacity: 0;
 }
 
+.Brands img{
+  height: 50px;
+
+
+
+}
+.Brands{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 0;
+  margin-top: 100px;
+}
+
+
 .products-small {
   height: 550px;
   padding-top: 40px;
@@ -97,16 +113,22 @@ body {
   background-image: url("images/sun1.jpg");
   background-position: center bottom;
   transition: all 0.5s ease;
-
 }
 
 #bgImageHide{
   background-image: none;
-  background-position: center bottom;
+  /* background-position: center bottom; */
 }
 
 /* animation change effect */
 .tranS{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.testT{
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -138,6 +160,8 @@ body {
   background-position: 50% 50%;
   transition: all 0.5s ease;
 }
+
+
 
 .text-white {
   color: #fff;
@@ -179,6 +203,7 @@ body {
   text-align: center;
   background-color: #000;
   color: #fff;
+
 }
 
 .carousel-item {
