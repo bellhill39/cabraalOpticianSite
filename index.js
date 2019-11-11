@@ -56,13 +56,12 @@ $(".buttonabout").click(function(){
 
 // sunglass image transfer
 
-$(".bgimage1").mouseenter(function (){
+$(".bgimage1").click(function (){
   $(this).attr("id","bgImageHide");
   $(".specS").hide();
   $(".sunG").removeClass("col-md-6");
   $(".sunG").addClass("col-md-12");
   $(".sunBrand").animate({opacity:1},{duration:200});
-  $(".brandCase").css({"background":"white"});
   // $(".sunglassesBrands").show();
 });
 
@@ -73,12 +72,12 @@ $(".bgimage1").mouseleave(function(){
   $(".sunG").addClass("col-md-6");
   // $(".sunglassesBrands").hide();
   $(".sunBrand").animate({opacity:0},{duration:100});
-  $(".brandCase").css({"background":"none"});
+
 });
 
 //spectacles image transfer
 
-$(".bgimage2").mouseenter(function(){
+$(".bgimage2").click(function(){
   $(this).attr("id","bgImageHide").css({"background-color":"white"});
   $(".sunG").hide();
   $(".specS").removeClass("col-md-6");
@@ -97,7 +96,7 @@ $(".bgimage2").mouseleave(function(){
 
 // Contact Lenses transfer
 
-$(".bgimage3").mouseenter(function(){
+$(".bgimage3").click(function(){
   $(this).attr("id","bgImageHide");
   $(".hearinG").hide();
   $(".contacT").removeClass("col-md-6");
@@ -115,7 +114,7 @@ $(".bgimage3").mouseleave(function(){
 
 //hearing transfer
 
-$(".bgimage4").mouseenter(function(){
+$(".bgimage4").click(function(){
   $(this).attr("id","bgImageHide").removeClass("text-white").addClass("text-black");
   $(".contacT").hide();
   $(".hearinG").removeClass("col-md-6");
